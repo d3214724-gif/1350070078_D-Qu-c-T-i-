@@ -1,0 +1,9 @@
+package gioithieu;
+
+public class SinhVien {
+    public static void main(String[] args) {
+        System.out.println("Họ tên: Dư Quốc Tới");
+        System.out.println("Lớp: HTTT2");
+        System.out.println("MSSV: 1350070078");
+    }
+}
