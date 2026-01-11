@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class HinhChuNhat {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhập cạnh a: ");
+        double a = sc.nextDouble();
+        System.out.print("Nhập cạnh b: ");
+        double b = sc.nextDouble();
+        System.out.println("Chu vi: " + (a + b) * 2);
+        System.out.println("Diện tích: " + a * b);
+    }
+}
