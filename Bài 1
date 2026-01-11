@@ -1,5 +1,4 @@
 package gioithieu;
-
 public class SinhVien {
     public static void main(String[] args) {
         System.out.println("Họ tên: Dư Quốc Tới");
