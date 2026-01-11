@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class TinhToan {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Nhập số a: ");
+        double a = sc.nextDouble();
+
+        System.out.print("Nhập số b: ");
+        double b = sc.nextDouble();
+
+        System.out.println("Tổng: " + (a + b));
+        System.out.println("Hiệu: " + (a - b));
+        System.out.println("Tích: " + (a * b));
+        System.out.println("Thương: " + (a / b));
+    }
+}
